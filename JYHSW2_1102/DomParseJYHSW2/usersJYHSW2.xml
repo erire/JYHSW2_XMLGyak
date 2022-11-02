@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8">
+
+<users>
+    <user id="1">
+        <firstname>Ede</firstname>
+        <lastname>L. Kiss</lastname>
+        <profession>Student</profession>
+    </user>
+    <user id="2">
+        <firstname>Tibi</firstname>
+        <lastname>Nagy</lastname>
+        <profession>Student</profession>
+    </user>
+    <user id="3">
+        <firstname>Eszter</firstname>
+        <lastname>Sepsi</lastname>
+        <profession>Teacher</profession>
+    </user>
+</users>
