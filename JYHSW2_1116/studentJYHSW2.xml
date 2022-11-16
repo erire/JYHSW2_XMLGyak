@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/xsl" href="students_for-each.xml"?>
+
+<class>
+    <student id="01">
+        <keresztnev>Ede</keresztnev>
+        <vezetéknev>L. Kiss</vezetéknev>
+        <becenev>Deni</becenev>
+        <kor>25</kor>
+        <osztondij>0</osztondij>
+    </student>
+    <student id="02">
+        <keresztnev>Sándor</keresztnev>
+        <vezetéknev>Kiss</vezetéknev>
+        <becenev>Sanyi</becenev>
+        <kor>22</kor>
+        <osztondij>52000</osztondij>
+    </student>
+    <student id="03">
+        <keresztnev>Eszter</keresztnev>
+        <vezetéknev>Nagy</vezetéknev>
+        <becenev>Eszti</becenev>
+        <kor>21</kor>
+        <osztondij>82000</osztondij>
+    </student>
+</class>

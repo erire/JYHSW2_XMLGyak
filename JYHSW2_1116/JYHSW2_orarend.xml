@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/xsl" href="students_for-each.xml"?>
+
+<JYHSW2_orarend>
+    <ora id="GEIAL31G-B" tipus="gyak">
+        <targy>Korszerű információs technológiák</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>info/202</helyszin>
+        <oktato>Árvai László Lajos</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEIAL31G-B" tipus="elmélet">
+        <targy>Korszerű információs technológiák</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>info/202</helyszin>
+        <oktato>Árvai László Lajos</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEVEE050-B" tipus="elmélet">
+        <targy>Elektrotechnika-elektronika</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>XXXVII</helyszin>
+        <oktato>Szabó Norbert István</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEVEE050-B" tipus="gyak">
+        <targy>Elektrotechnika-elektronika</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>A1/326</helyszin>
+        <oktato>Dr. Kozsely Gábor</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEIAL332-B" tipus="elmélet">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>XXXII</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEIAL332-B" tipus="gyak">
+        <targy>Adatkezelés XML-ben</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>info 101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEIAL32B-B" tipus="elmélet">
+        <targy>Oracle rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>info 101</helyszin>
+        <oktato>Dr. Kovács László József</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEIAL32B-B" tipus="gyak">
+        <targy>Oracle rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>info 103</helyszin>
+        <oktato>Szűcs Miklós</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEIAL333-B" tipus="elmélet">
+        <targy>Web-es alkalmazások</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Dr. Barabás Péter</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEIAL333-B" tipus="gyak">
+        <targy>Web-es alkalmazások</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>13</tol>
+            <ig>15</ig>
+        </idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Dr. Barabás Péter</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEFIT012-B" tipus="elmélet">
+        <targy>Fizika II.</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>III.</helyszin>
+        <oktato>Dr. Pszota Gábor</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="GEFIT012-B" tipus="gyak">
+        <targy>Fizika II.</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>A1/314</helyszin>
+        <oktato>Nagy Ádám</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+    <ora id="ETTESME1" tipus="gyak">
+        <targy>Testnevelés 1.</targy>
+        <idopont>
+            <nap>Hétfő</nap>
+            <tol>10</tol>
+            <ig>11</ig>
+        </idopont>
+        <helyszin>Uni Gym</helyszin>
+        <oktato>Nincs</oktato>
+        <szak>mérnökinformatikus</szak>
+    </ora>
+
+</JYHSW2_orarend>
