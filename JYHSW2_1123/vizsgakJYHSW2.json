@@ -1,0 +1,48 @@
+{ "_id": "JYHSW2",
+"name": "vizsgak",
+"vizsgak": {
+    "vizsga": {
+        "kurzus": "Fizika I.",
+        "helyszin": "E5",
+        "idopont": {
+            "nap": "Kedd",
+            "tol": 14,
+            "ig": 16
+        },
+        "oktato": "Nagy Ádám",
+        "jegy": "1",
+    "vizsga": {
+            "kurzus": "Numerikus analízis",
+            "helyszin": "E32",
+            "idopont": {
+                "nap": "Szerda",
+                "tol": 10,
+                "ig": 12
+            },
+            "oktato": "Dr. Földvári Attila József",
+            "jegy": "2"
+    },
+    "vizsga": {
+        "kurzus": "Biztonság és védelem a számítástechnikában",
+        "helyszin": "E20",
+        "idopont": {
+            "nap": "Hétfő",
+            "tol": 12,
+            "ig": 14
+        },
+        "oktato": "Wagner György",
+        "jegy": "3"
+},
+    "vizsga": {
+        "kurzus": "Matematika szigorlat",
+        "helyszin": "E3",
+        "idopont": {
+            "nap": "Péntek",
+            "tol": 8,
+            "ig": 10
+        },
+        "oktato": "Lengyelné Dr. Szilágyi Szilvia",
+        "jegy": "2"
+}
+} 
+} }

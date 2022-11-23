@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/xsl" href="students_for-each.xml"?>
+
+<vizsgak _id="JYHSW2">
+    <nev>vizsgak</nev>
+    <vizsga>
+        <kurzus>Fizika I.</kurzus>
+        <helszin>E5</helszin>
+        <helszin>
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </helszin>
+        <oktato>Nagy Ádám</oktato>
+        <jegy>1</jegy>
+    </vizsga>
+    <vizsga>
+        <kurzus>Numerikus analízis</kurzus>
+        <helszin>E32</helszin>
+        <helszin>
+            <nap>Szerda</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </helszin>
+        <oktato>Dr. Földvári Attila József</oktato>
+        <jegy>2</jegy>
+    </vizsga>
+    <vizsga>
+        <kurzus>Biztonság és védelem a számítástechnikában</kurzus>
+        <helszin>E20</helszin>
+        <helszin>
+            <nap>Hétfő</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </helszin>
+        <oktato>Wagner György</oktato>
+        <jegy>3</jegy>
+    </vizsga>
+    <vizsga>
+        <kurzus>Matematika szigorlat</kurzus>
+        <helszin>E3</helszin>
+        <helszin>
+            <nap>Péntek</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </helszin>
+        <oktato>Lengyelné Dr. Szilágyi Szilvia</oktato>
+        <jegy>2</jegy>
+    </vizsga>
+    <atlag>2</atlag>
+</vizsgak>

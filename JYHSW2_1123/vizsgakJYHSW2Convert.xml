@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root id='JYHSW2'>
+  <name>vizsgak</name>
+  <vizsgak>
+    <vizsga>
+      <kurzus>Fizika I.</kurzus>
+      <helyszin>E5</helyszin>
+      <idopont>
+        <nap>Kedd</nap>
+        <tol>14</tol>
+        <ig>16</ig>
+      </idopont>
+      <oktato>Nagy Ádám</oktato>
+      <jegy>1</jegy>
+      <vizsga>
+        <kurzus>Matematika szigorlat</kurzus>
+        <helyszin>E3</helyszin>
+        <idopont>
+          <nap>Péntek</nap>
+          <tol>8</tol>
+          <ig>10</ig>
+        </idopont>
+        <oktato>Lengyelné Dr. Szilágyi Szilvia</oktato>
+        <jegy>2</jegy>
+      </vizsga>
+    </vizsga>
+  </vizsgak>
+</root>
