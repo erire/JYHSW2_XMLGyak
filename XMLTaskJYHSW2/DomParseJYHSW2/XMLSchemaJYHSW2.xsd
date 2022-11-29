@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Meresek">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Meresi_Adatok" type="Meresi_AdatokTipus" maxOccurs="unbounded"/>
+                <xs:element name="Mero_Eszkoz" type="Mero_EszkozTipus" maxOccurs="unbounded"/>
+                <xs:element name="Gyarto" type="GyartoTipus" maxOccurs="unbounded"/>
+                <xs:element name="Telephely" type="TelephelyTipus" maxOccurs="unbounded"/>
+                <xs:element name="Szerelo" type="SzereloTipus" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+
+        <!-- Elsődleges kulcsok -->
+        <xs:key name="Meresi_AdatokKulcs">
+            <xs:selector xpath="Meresi_Adatok"/>
+            <xs:field xpath="@kulcs"/>
+        </xs:key>
+
+        <xs:key name="Mero_EszkozKulcs">
+            <xs:selector xpath="Mero_Eszkoz"/>
+            <xs:field xpath="@kulcs"/>
+        </xs:key>
+
+        <xs:key name="GyartoKulcs">
+            <xs:selector xpath="Gyarto"/>
+            <xs:field xpath="@kulcs"/>
+        </xs:key>
+
+        <xs:key name="TelephelyKulcs">
+            <xs:selector xpath="Telephely"/>
+            <xs:field xpath="kulcs"/>
+        </xs:key>
+
+        <xs:key name="SzereloKulcs">
+            <xs:selector xpath="Szerelo"/>
+            <xs:field xpath="kulcs"/>
+        </xs:key>
+
+        <!-- Idegen kulcsok -->
+        <xs:keyref refer="eszkozKulcs" name="eszkozTelephelyIdegenKulcs">
+            <xs:selector xpath="Karbantartas"/>
+            <xs:field xpath="@eszkozkulcs"/>
+        </xs:keyref>
+
+        <xs:keyref refer="telepKulcs" name="TelephelyIdegenKulcs">
+            <xs:selector xpath="Karbantartas"/>
+            <xs:field xpath="@telepkulcs"/>
+        </xs:keyref>
+
+        <xs:keyref refer="szereloKulcs" name="szereloTelephelyIdegenKulcs">
+            <xs:selector xpath="Karbantartas"/>
+            <xs:field xpath="@szerelokulcs"/>
+        </xs:keyref>
+    </xs:element>
+
+    <!-- Saját típusok -->
+    <xs:complexType name="Meresi_AdatokTipus">
+        <xs:sequence>
+            <xs:element name="homerseklet" type="xs:integer"/>
+            <xs:element name="szallopor" type="xs:integer"/>
+            <xs:element name="CO" type="xs:integer"/>
+            <xs:element name="Paratartalom" type="xs:integer"/>
+        </xs:sequence>
+        <xs:attribute name="kulcs" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Mero_EszkozTipus">
+        <xs:sequence>
+            <xs:element name="tipus" type="xs:string"/>
+            <xs:element name="cim">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="iranyito_szam" type="xs:string"/>
+                        <xs:element name="telepules" type="xs:string"/>
+                        <xs:element name="utca" type="xs:string"/>
+                        <xs:element name="hazszam" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="gyartas_ido" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="kulcs" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="GyartoTipus">
+        <xs:sequence>
+            <xs:element name="Cegnev" type="xs:string"/>
+            <xs:element name="telefonszam" type="xs:string"/>
+            <xs:element name="email" type="xs:string"/>
+            <xs:element name="cim">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="iranyito_szam" type="xs:string"/>
+                        <xs:element name="telepules" type="xs:string"/>
+                        <xs:element name="utca" type="xs:string"/>
+                        <xs:element name="hazszam" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="kulcs" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="TelephelyTipus">
+        <xs:sequence>
+            <xs:element name="telefonszam" type="xs:string"/>
+            <xs:element name="email" type="xs:string"/>
+            <xs:element name="cim">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="iranyito_szam" type="xs:string"/>
+                        <xs:element name="telepules" type="xs:string"/>
+                        <xs:element name="utca" type="xs:string"/>
+                        <xs:element name="hazszam" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="kulcs" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="SzereloTipus">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="kereset" type="xs:integer"/>
+            <xs:element name="javitas_hatarido" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="kulcs" type="xs:string" use="required"/>
+    </xs:complexType>
+</xs:schema>
