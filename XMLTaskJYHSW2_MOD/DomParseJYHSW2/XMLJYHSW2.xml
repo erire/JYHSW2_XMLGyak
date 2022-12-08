@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Meresek xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaJYHSW2.xsd">
+    <Meresi_Adatok kulcs="1">
+        <homerseklet>9</homerseklet>
+        <szallopor>34</szallopor>
+        <CO>400</CO>
+        <Paratartalom>40</Paratartalom>
+    </Meresi_Adatok>
+    <Meresi_Adatok kulcs="2">
+        <homerseklet>12</homerseklet>
+        <szallopor>24</szallopor>
+        <CO>359</CO>
+        <Paratartalom>20</Paratartalom>
+    </Meresi_Adatok>
+    <Meresi_Adatok kulcs="3">
+        <homerseklet>3</homerseklet>
+        <szallopor>28</szallopor>
+        <CO>394</CO>
+        <Paratartalom>30</Paratartalom>
+    </Meresi_Adatok>
+    <Mero_Eszkoz kulcs="1">
+        <tipus>y19</tipus>
+        <cim>
+            <iranyito_szam>3505</iranyito_szam>
+            <telepules>Miskolc</telepules>
+            <utca>Árpád Utca</utca>
+            <hazszam>5</hazszam>
+        </cim>
+        <gyartas_ido>2017.08.08</gyartas_ido>
+        <karbantart>
+            <TID_F>1</TID_F>
+            <SZID_F>1</SZID_F>
+            <Datum>2022.11.20</Datum>
+        </karbantart>
+    </Mero_Eszkoz>
+    <Mero_Eszkoz kulcs="2">
+        <tipus>rz34</tipus>
+        <cim>
+            <iranyito_szam>3514</iranyito_szam>
+            <telepules>Miskolc</telepules>
+            <utca>József Utca</utca>
+            <hazszam>14</hazszam>
+        </cim>
+        <gyartas_ido>2016.08.08</gyartas_ido>
+        <karbantart>
+            <TID_F>2</TID_F>
+            <SZID_F>2</SZID_F>
+            <Datum>2022.11.21</Datum>
+        </karbantart>
+    </Mero_Eszkoz>
+    <Mero_Eszkoz kulcs="3">
+        <tipus>y20</tipus>
+        <cim>
+            <iranyito_szam>4440</iranyito_szam>
+            <telepules>Tiszavasvári</telepules>
+            <utca>Vásártér Utca</utca>
+            <hazszam>22</hazszam>
+        </cim>
+        <gyartas_ido>2020.09.12</gyartas_ido>
+        <karbantart>
+            <TID_F>3</TID_F>
+            <SZID_F>3</SZID_F>
+            <Datum>2022.11.22</Datum>
+        </karbantart>
+    </Mero_Eszkoz>
+    <Gyarto kulcs="1">
+        <Cegnev>SPEC SENSORS</Cegnev>
+        <telefonszam>06204475215</telefonszam>
+        <email>hamismail@gmail.com</email>
+        <cim>
+            <iranyito_szam>3510</iranyito_szam>
+            <telepules>Miskolc</telepules>
+            <utca>Gyár utca</utca>
+            <hazszam>55</hazszam>
+        </cim>
+    </Gyarto>
+    <Gyarto kulcs="2">
+        <Cegnev>GOOD SENSORS</Cegnev>
+        <telefonszam>06209957546</telefonszam>
+        <email>fakemail@gmail.com</email>
+        <cim>
+            <iranyito_szam>3540</iranyito_szam>
+            <telepules>Miskolc</telepules>
+            <utca>Fake utca</utca>
+            <hazszam>36</hazszam>
+        </cim>
+    </Gyarto>
+    <Gyarto kulcs="3">
+        <Cegnev>Sensor Tech</Cegnev>
+        <telefonszam>06301875546</telefonszam>
+        <email>stillfake@gmail.com</email>
+        <cim>
+            <iranyito_szam>4440</iranyito_szam>
+            <telepules>Tiszavasvári</telepules>
+            <utca>Nincs Utca</utca>
+            <hazszam>40</hazszam>
+        </cim>
+    </Gyarto>
+    <Telephely kulcs="1">
+        <telefonszam>06 55 814 113</telefonszam>
+        <email>Repairs@freemail.hu</email>
+        <cim>
+            <iranyito_szam>3512</iranyito_szam>
+            <telepules>Miskolc</telepules>
+            <utca>Javít Utca</utca>
+            <hazszam>19</hazszam>
+        </cim>
+    </Telephely>
+    <Telephely kulcs="2">
+        <telefonszam>06 55 705 172</telefonszam>
+        <email>sensorRepairs@freemail.hu</email>
+        <cim>
+            <iranyito_szam>3511</iranyito_szam>
+            <telepules>Miskolc</telepules>
+            <utca>Random utca</utca>
+            <hazszam>33</hazszam>
+        </cim>
+    </Telephely>
+    <Telephely kulcs="3">
+        <telefonszam>06 55 610 929</telefonszam>
+        <email>SensorService@gmail.com</email>
+        <cim>
+            <iranyito_szam>3510</iranyito_szam>
+            <telepules>Miskolc</telepules>
+            <utca>Mind1 Utca</utca>
+            <hazszam>10</hazszam>
+        </cim>
+    </Telephely>
+    <Szerelo kulcs="1">
+        <nev>Márton</nev>
+        <kereset>550000</kereset>
+        <javitas_hatarido>2022.11.25</javitas_hatarido>
+    </Szerelo>
+    <Szerelo kulcs="2">
+        <nev>Eszter</nev>
+        <kereset>550000</kereset>
+        <javitas_hatarido>2022.11.22</javitas_hatarido>
+    </Szerelo>
+    <Szerelo kulcs="3">
+        <nev>Ede</nev>
+        <kereset>220000</kereset>
+        <javitas_hatarido>2022.11.29</javitas_hatarido>
+    </Szerelo>
+    <Vezerigazgato VID="1">
+        <nev>Nagy S?ndor</nev>
+        <fizettseg>220000</fizettseg>
+        <szuletesi_datum>1986.11.29</szuletesi_datum>
+    </Vezerigazgato>
+    <Vezerigazgato VID="2">
+        <nev>Nagy Eszter</nev>
+        <fizettseg>2100000</fizettseg>
+        <szuletesi_datum>1984.11.29</szuletesi_datum>
+    </Vezerigazgato>
+    <Vezerigazgato VID="3">
+        <nev>Nagy Márton</nev>
+        <fizettseg>1900000</fizettseg>
+        <szuletesi_datum>1983.11.29</szuletesi_datum>
+    </Vezerigazgato>
+</Meresek>
